@@ -8,6 +8,7 @@ import Css from "./pages/home/css/Css";
 import Js from "./pages/home/js/Js";
 import Java from "./pages/home/java/Java";
 import Reacts from "./pages/home/react/Reacts";
+import MountBlue from "./pages/home/mountBlue/MountBlue";
 
 
 function App() {
@@ -45,6 +46,12 @@ function App() {
             <>
               <Navbar />
               <Java />
+            </>
+          } />
+          <Route path="/question/mount-blue" element={
+            <>
+              <Navbar />
+              <MountBlue />
             </>
           } />
 

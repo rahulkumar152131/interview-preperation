@@ -33,6 +33,9 @@ const Navbar = () => {
                     <div className="javaScript" onClick={()=>navigate("/question/js")}>
                         JS
                     </div>
+                    <div className="mountBlue" onClick={()=>navigate("/question/mount-blue")}>
+                        MountBlue
+                    </div>
                     <div className="react" onClick={() => navigate("/question/react")}>
                         React
                     </div>
